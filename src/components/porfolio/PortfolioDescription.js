@@ -65,7 +65,7 @@ const PortfolioDescription = () => {
     setExist(items.filter((item) => item.id === id)[0]);
     !isExist && Navigate("error");
   }, []);
-  return (
+  return isExist ? (
     <div className="portfolioDescription px-3">
       <div className="backButton">
         <Link to="/portfolio" style={{ textDecoration: "none", color: "white", padding: "5px" }}>
@@ -102,6 +102,8 @@ const PortfolioDescription = () => {
         <ul>{isExist.technology && isExist.technology.factors && isExist.technology.factors.map((factor, index) => <li key={index}>{factor}</li>)}</ul>
       </div>
     </div>
+  ) : (
+    Navigate("error")
   );
 };
 

@@ -40,7 +40,7 @@ const Home = () => {
             Fiverr
           </span>
         </div>
-        <Link to="/about" className="text-decoration-none">
+        <Link to="about" className="text-decoration-none">
           <div className="aboutMeDiv">
             <button className="btn aboutButton">
               ABOUT ME
