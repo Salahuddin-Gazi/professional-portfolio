@@ -1,0 +1,231 @@
+/* About */
+.aboutDiv,
+.myStackDiv,
+.resume,
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutHeading {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 25px;
+  color: rgb(51, 132, 160);
+  font-size: 7vw;
+  text-align: center;
+  line-height: 100%;
+  font-weight: 900;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px rgb(51, 132, 160);
+}
+
+.aboutDiv .aboutSubheading {
+  font-size: 3vw;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.starIcon {
+  margin-bottom: 25px;
+}
+.fa-star {
+  transition: 0.5s linear;
+}
+.fa-star:hover {
+  background: linear-gradient(to right, #ff2a2a, #94ee03);
+  color: inherit;
+}
+
+.infoContainer {
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 0px 30px;
+  font-size: 1.6vw;
+}
+
+.gaziSecondary {
+  margin-top: 10px;
+  width: 40vw;
+}
+
+@media screen and (max-width: 750px) {
+  .aboutHeading {
+    font-size: 52px;
+  }
+  .aboutDiv .aboutSubheading {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .infoContainer {
+    padding: 0px 15px;
+    font-size: 18px;
+  }
+  .gaziSecondary {
+    width: 60vw;
+  }
+}
+
+.languages,
+.frontend,
+.backend,
+.devOps,
+.frameworksAndUtilities {
+  background: #333333;
+  padding: 0px 10px;
+  margin: 5px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.subHeadingDiv {
+  font-size: 20px;
+  text-align: center;
+  width: 200px;
+  height: 25px;
+  background: #555555;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.subHeading {
+  margin-bottom: 2px;
+  position: relative;
+  bottom: 30%;
+  color: rgba(255, 255, 255, 0.644);
+}
+
+.rowDiv {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.rowDiv .itemBox {
+  position: relative;
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 20px 20px 0px;
+  max-width: 200px;
+  min-width: 160px;
+}
+.rowDiv .itemBox .type {
+  color: rgba(255, 255, 255, 0.644);
+}
+
+@media screen and (max-width: 401px) {
+  .rowDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 8px;
+  }
+  .subHeadingDiv {
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.rowDiv .itemBox img {
+  width: 50px;
+  height: 50px;
+  opacity: 0.8;
+  border-radius: 4px;
+  margin: 5px auto;
+  float: none;
+  display: block;
+  cursor: pointer;
+}
+.rowDiv .itemBox .content {
+  width: 52px;
+  height: 52px;
+  margin: 0px auto;
+}
+.type {
+  text-align: center;
+  align-items: center;
+  max-width: 100%;
+  background: #555555;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.name {
+  margin-bottom: 5px;
+  padding: 0px 10px;
+}
+
+.popupDiv {
+  position: absolute;
+  bottom: 100%;
+  left: -10%;
+  width: 250px;
+  background: #fff;
+  color: #333333;
+  padding: 5px;
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 12px;
+}
+.popupText {
+  padding: 5px;
+}
+.rowDiv .itemBox .content:hover .popupDiv {
+  visibility: visible;
+  opacity: 1;
+}
+
+.resumeContent {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  text-align: justify;
+  text-justify: inter-word;
+  flex-wrap: wrap;
+  padding: 0px 10px;
+}
+
+.education,
+.certificate,
+.skills,
+.experience,
+.contactInfo {
+  padding: 0px 30px;
+  width: 100%;
+}
+
+.education,
+.certificate,
+.skills,
+.contactInfo {
+  text-align: start !important;
+}
+
+ul {
+  list-style: square;
+}
+
+ul li {
+  /* margin: 5px; */
+  padding: 5px;
+}
+
+@media screen and (max-width: 991px) {
+  .responsiveText {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .responsiveText {
+    font-size: 0.91rem;
+  }
+}
