@@ -13,7 +13,7 @@ const App = () => {
       <Fragment>
         <Navbar />
         <Routes>
-          <Route path="/*" element={<AppRoutes />} />
+          <Route path="/professional-portfolio" element={<AppRoutes />} />
         </Routes>
         <Footer />
       </Fragment>

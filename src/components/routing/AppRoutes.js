@@ -10,11 +10,11 @@ const AppRoute = () => {
   return (
     <section className="container py-2" style={{ marginTop: "2vh" }}>
       <Routes>
-        <Route index path="" element={<Home />} />
-        <Route exact path="about" element={<About />} />
-        <Route exact path="portfolio" element={<Portfolio />} />
-        <Route exact path="portfolio/:id" element={<PortfolioDescription />} />
-        <Route path="*" element={<NotFound />} />
+        <Route index path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/portfolio" element={<Portfolio />} />
+        <Route exact path="/portfolio/:id" element={<PortfolioDescription />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
     </section>
   );
