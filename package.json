@@ -1,5 +1,4 @@
 {
-  "homepage": "https://Salahuddin-Gazi.github.io/professional-portfolio",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -20,12 +19,10 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "node index.js",
+    "build": "ng build",
+    "heroku-postbuild": "ng build --prod",
+    "dev": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
@@ -45,7 +42,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
-  }
+  "devDependencies": {}
 }

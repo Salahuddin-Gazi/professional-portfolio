@@ -302,7 +302,9 @@ const About = () => {
             <ul>
               <li>
                 {" "}
-                <a href="https://www.coursera.org/account/accomplishments/certificate/3HESSAX7WG2A">“AWS Fundamentals: Going Cloud-Native” from Coursera</a>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/3HESSAX7WG2A" target={`_blank`}>
+                  “AWS Fundamentals: Going Cloud-Native” from Coursera
+                </a>
               </li>
               <li>“Linux Server Management and Security” from Coursera</li>
             </ul>
