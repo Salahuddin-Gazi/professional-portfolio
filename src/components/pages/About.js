@@ -136,31 +136,32 @@ const About = () => {
         <div className="container infoContainer">
           <p>
             Hi,👏I am Gazi Salahuddin. I always prefer to keep learning, continue challenging myself and do interesting things that matter. I am fueled{" "}
-            <img src={firedUp} width="28px" height="28px" style={{ borderRadius: "40%" }} /> with boundless enthusiasm, easily inspired and more than willing to
-            follow my fascinations. I’m a passionate, expressive spirit with a natural ability to prosper and inspire. I am not willing just to satisfy myself
-            with ideas. Instead, I have the utmost impulsive resonance to act on them.
+            <img src={firedUp} width="28px" height="28px" style={{ borderRadius: "40%" }} alt="fired up" /> with boundless enthusiasm, easily inspired and more
+            than willing to follow my fascinations. I’m a passionate, expressive spirit with a natural ability to prosper and inspire. I am not willing just to
+            satisfy myself with ideas. Instead, I have the utmost impulsive resonance to act on them.
           </p>
           <p>
             I decided that it would be a fun challenge to try designing and building full-stack web projects. I mainly work with JavaScript/NodeJS{" "}
-            <img src={js} width="28px" height="28px" /> and other JS frameworks, especially with React JS, React Native.
+            <img src={js} width="28px" height="28px" alt="JS" /> and other JS frameworks, especially with React JS, React Native.
           </p>
           <p>
             I’m a fast learner, able to pick up new skills. I like to develop expertise in several areas over the course of my life and career. I have started
             my early career as System Support Engineer and then shifted to Business Analytics for e.co Bangladesh{" "}
-            <img src={edotco} width="28px" height="28px" style={{ borderRadius: "40%" }} />. And the skills in web development attracted me the most.
+            <img src={edotco} width="28px" height="28px" style={{ borderRadius: "40%" }} alt="edotco" />. And the skills in web development attracted me the
+            most.
           </p>
           <p>
             In my free time, I enjoy Web Series and TV Series, Gaming CS: GO
-            <img src={csgo} width="28px" height="28px" />
+            <img src={csgo} width="28px" height="28px" alt="Series" />
             with friends. I’m also a great fan of the Bangladesh Cricket Team.
           </p>
           <p>
-            This year goal: finish reading 20 books <img src={books} width="28px" height="28px" style={{ borderRadius: "40%" }} /> along with "The Lean
-            Startup", "The Intelligent Investor" and "How To Make Money In Stocks".
+            This year goal: finish reading 20 books <img src={books} width="28px" height="28px" style={{ borderRadius: "40%" }} alt="Books" /> along with "The
+            Lean Startup", "The Intelligent Investor" and "How To Make Money In Stocks".
           </p>
         </div>
         <div>
-          <img src={gaziSecondary} alt="Preview" className="gaziSecondary" />
+          <img src={gaziSecondary} alt="Preview" className="gaziSecondary" alt="Gazi" />
           <p className="text-center fs-3 fw-bold">Me</p>
         </div>
       </div>
