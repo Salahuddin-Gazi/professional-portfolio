@@ -161,7 +161,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <img src={gaziSecondary} alt="Preview" className="gaziSecondary" alt="Gazi" />
+          <img src={gaziSecondary} alt="Preview" className="gaziSecondary" />
           <p className="text-center fs-3 fw-bold">Me</p>
         </div>
       </div>
